@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoWeather</title>
+    <link rel="stylesheet" type=text/css href="dojoweather.css">
+</head>
+<body>
+    <div class="top">
+        <h1 class="title">DojoWeather</h1>
+        <ul class="cities" onclick="alert('Loading weather report...')">
+            <li><a ref="#">Burbank</a></li>
+            <li><a ref="#">Chicago</a></li>
+            <li><a ref="#">Dallas</a></li>
+        </ul>
+    </div>
+    <div class="top-2">
+        <h2 class="current-city">San Jose</h2>
+        <p id="temp-select">show temperature in </p>
+        <select id="box" name="temperature-scale" onchange="convert(this)">
+            <option>°C</option>
+            <option>°F</option>
+        </select>
+    </div>
+    <div class="container">
+        <div class="columns">
+            <div class="col">
+                <h3 class="day">Today</h3>
+                <img src="some_rain.png" alt="some-rain" class="weather-img">
+                <p class="weather">some rain</p>
+                <p class="temp">
+                    <span class="heat" id="temp1">24°</span>
+                    <span class="cold" id="temp2"t>18°</span>
+                </p>
+            </div>
+            <div class="col">
+                <h3 class="day">Tomorrow</h3>
+                <img src="some_sun.png" alt="some-sun" class="weather-img">
+                <p class="weather">some sun</p>
+                <p class="temp">
+                    <span class="heat" id="temp3"t>27°</span>
+                    <span class="cold" id="temp4">19°</span>
+                </p>
+                
+            </div>
+            <div class="col">
+                <h3 class="day">Friday</h3>
+                <img src="some_clouds.png" alt="some-clouds" class="weather-img">
+                <p class="weather">some sun</p>
+                <p class="temp">
+                    <span class="heat" id="temp5">21°</span>
+                    <span class="cold" id="temp6">16°</span>
+                </p>
+            </div>
+            <div class="col">
+                <h3 class="day">Saturday</h3>
+                <img src="some_sun.png" alt="some-sun" class="weather-img">
+                <p class="weather">some sun</p>
+                <p class="temp">
+                    <span class="heat" id="temp7"t>26°</span>
+                    <span class="cold" id="temp8"t>21°</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="cookie-container">
+        <img src="cookie.png" alt="cookie" class="cookie">
+        <div class="cookie-text">
+            <h4 id="cookie-header">Stop! Cookie Time</h4>
+            <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a ref="#">Read more...</a></p>
+        </div>
+        <button id="accept" onclick="hide()">I Accept</button>
+    </div>
+    <script src="dojoweather.js"></script>
+</body>
+</html>

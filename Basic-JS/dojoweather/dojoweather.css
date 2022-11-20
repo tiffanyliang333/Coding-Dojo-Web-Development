@@ -1,0 +1,115 @@
+.top{
+    background-color: lightskyblue;
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:white;
+}
+.title{
+    margin-left:20px;
+    font-size: 50px;
+    align-items:center;
+    margin-right:auto;
+}
+.cities{
+    display:flex;
+    width: 40%;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    font-size:35px;
+}
+.top-2{
+    display:flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:20px;
+    border-bottom: 3px solid black;
+}
+.current-city{
+    margin-left:20px;
+    font-size:35px;
+    align-items: center;
+    margin-right:auto;
+}
+#temp-select{
+    width: 15%;
+    align-items:center;
+    font-size:20px;
+}
+#box{
+    margin:10px;
+    padding-left:20px;
+    padding-right:20px;
+}
+.container{
+    display:flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    margin-right:auto;
+}
+.columns{
+    display:flex;
+    margin:50px;
+    margin:auto;
+    justify-content: space-evenly;
+    width:1000px;
+}
+.weather-img{
+    border-radius: 50%;
+    width:200px;
+}
+.col{
+    padding:5px;
+    padding-left:30px;
+    padding-right:30px;
+    margin:20px;
+    background: lightgrey;
+    font-size:20px;
+    text-align: center;
+}
+.day{
+    font-size: 30px;
+}
+.temp{
+    display: flex;
+    justify-content: space-around;
+}
+.heat{
+    color:red;
+    font-size:30px;
+    margin-right:auto;
+}
+.cold{
+    color:blue;
+    font-size: 30px;
+}
+.cookie-container{
+    display:flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:auto;
+    border:3px solid black;
+    width:1500px;
+    padding:10px;
+    padding-left:30px;
+    padding-right:30px;
+}
+.cookie{
+    width:120px;
+    height:120px;
+    align-items: center;
+    margin-top:30px;
+}
+.cookie-text{
+    font-size:20px;
+}
+#cookie-header{
+    font-size:30px;
+}
+#accept{
+    width:100px;
+    height:40px;
+    font-size:20px;
+    align-items: center;
+    margin-top:60px;
+    background-color: lightskyblue;
+    box-shadow:5px 5px 5px black;
+}

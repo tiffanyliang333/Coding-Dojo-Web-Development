@@ -1,0 +1,22 @@
+.nav{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    background-color: grey;
+    color:white;
+}
+.nav-title{
+    margin-left:20px;
+    margin-right:auto;
+}
+.nav-links{
+    display:flex;
+    align-items: center;
+    color:white;
+    justify-content: flex-end;
+    margin-right:20px;
+}
+.btn{
+    background-color: darkcyan;
+    box-shadow: 3px 3px 3px black;
+    color:white;
+}

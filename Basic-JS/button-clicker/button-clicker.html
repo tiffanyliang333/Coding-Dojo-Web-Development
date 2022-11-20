@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" type="text/css" href="button-clicker.css">
+</head>
+<body>
+    <div class="nav">
+        <h1 class="nav-title">Dojonary</h1>
+        <ul class="nav-links">
+            <input type="text" placeholder="Search" class="search">
+            <button class="login" onclick="login(this)">Login</button>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="ninja-card">
+                    <div class="left-col">
+                        <h1>ninja</h1>
+                        <h2><em>noun</em></h2>
+                        <h4>Plural: <em>ninjas</em></h4>
+                        <button class="likes" onclick="alert('Ninja was liked.')"><strong>13 likes</strong></button>
+                    </div>
+                    <div class="right-col">
+                        <div id="def-1"><h3>A practitioner skilled in the <a ref="#">Japanese</a> art of <a ref="#">ninjitsu.</a></h3></div>
+                    </div>
+                </div>
+                <div class="ninja-card">
+                    <div class="left-col">
+                        <h1>ninja</h1>
+                        <h2><em>noun</em></h2>
+                        <h4>Plural: <em>ninjas</em></h4>
+                        <button class="likes" onclick="alert('Ninja was liked.')"><strong>37 likes</strong></button> 
+                    </div>
+                    <div class="right-col">
+                        <div id="def-2"><h3>A <a ref="#">programmer</a> who breaks down problems with <a ref="#">zen</a>-like focus.</h3></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="you">
+                    <p>Dojonary is defined by YOU.</p>
+                    <button class="add-def" onclick="hide(this)"><strong>Add Definition</strong></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="button-clicker.js"></script>
+</body>
+</html>
